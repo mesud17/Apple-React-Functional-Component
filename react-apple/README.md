@@ -1,16 +1,33 @@
-# React + Vite
+# Apple Static Page - React (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple static web page inspired by Apple's design, built using React functional components with **Vite**. Focused on clean, responsive, and reusable components.
 
-Currently, two official plugins are available:
+## Features
+- Built with React functional components
+- Simple, clean, and responsive design
+- Purely static, no backend
+- Fast development with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies
+- React (Functional Components)
+- HTML & CSS & bootstrab(for resposive page)
+- JavaScript (ES6+)
 
-## React Compiler
+## Getting Started
+1. Clone the repo:  
+   `git clone <your-repo-url>`  
+2. Navigate to the project folder:  
+   `cd <your-project-folder>`  
+3. Install dependencies:  
+   `npm install`  
+4. Start the development server:  
+   `npm run dev`  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Visit the local server URL shown in the terminal (usually `http://localhost:5173`).
 
-## Expanding the ESLint configuration
+## Usage
+- Modify components in `src/components/`  
+- Customize styles in `src/styles/`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+Open-source and free to use.
