@@ -1,5 +1,4 @@
-import './assets/css/styles.css'
-import './assets/css/bootstrap.css'
+
 import Header from './components/Header'
 import Alert from './components/Alert.jsx'
 import FirstSection from './components/FirstSection.jsx'
