@@ -29,5 +29,5 @@ Visit the local server URL shown in the terminal (usually `http://localhost:5173
 - Modify components in `src/components/`  
 - Customize styles in `src/styles/`
 
-## License
+
 Open-source and free to use.
