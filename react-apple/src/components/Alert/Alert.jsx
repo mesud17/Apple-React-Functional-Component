@@ -1,9 +1,8 @@
-import React from 'react';
 
-const Alert = () => {
-    return (
-        <>
-        <section className="alert-section top-50">
+function Alert() {
+  return (
+    <>
+    <section className="alert-section top-50">
 		<div className="container">
 			<div className="alert-title">
 				We’re open for you.
@@ -14,8 +13,9 @@ const Alert = () => {
 			</div>
 		</div>
 	</section>
-        </>
-    );
+    
+    </>
+  )
 }
 
-export default Alert;
+export default Alert

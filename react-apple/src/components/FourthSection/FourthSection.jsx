@@ -1,9 +1,9 @@
-import React from 'react';
 
-const FourthSection = () => {
-    return (
-        <>
-        <section className="fourth-heghlight-wrapper">
+
+function FourthSection() {
+  return (
+    <>
+    <section className="fourth-heghlight-wrapper">
 		<div className="container-fluid">
 			<div className="row">
 				<div className="left-side-wrapper col-sm-12 col-md-6">
@@ -42,8 +42,8 @@ const FourthSection = () => {
 			</div>
 		</div> 
 	</section>
-        </>
-    );
+    </>
+  )
 }
 
-export default FourthSection;
+export default FourthSection

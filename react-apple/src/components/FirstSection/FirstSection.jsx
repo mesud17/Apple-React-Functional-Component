@@ -1,9 +1,8 @@
-import React from 'react';
 
-const FirstSection = () => {
-    return (
-        <>
-        <section className="first-hightlight-wrapper">
+function FirstSection() {
+  return (
+    <>
+    <section className="first-hightlight-wrapper">
 		<div className="container">
 
 			<div className="new-alert">
@@ -27,8 +26,8 @@ const FirstSection = () => {
 			</div>
 		</div>
 	</section>
-        </>
-    );
+    </>
+  )
 }
 
-export default FirstSection;
+export default FirstSection

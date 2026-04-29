@@ -1,9 +1,9 @@
-import React from 'react';
 
-const ThirdSection = () => {
-    return (
-       <>
-       <section className="third-hightlight-wrapper">
+
+function ThirdSection() {
+  return (
+    <>
+    <section className="third-hightlight-wrapper">
 		<div className="container">
 			<div className="title-wraper bold">
 				iPhone 11 Pro 
@@ -25,8 +25,8 @@ const ThirdSection = () => {
 			</div>
 		</div>
 	</section>
-       </>
-    );
+    </>
+  )
 }
 
-export default ThirdSection;
+export default ThirdSection

@@ -1,16 +1,17 @@
-import React from 'react';
-import arcade from '../assets/images/icons/arcade.png'
-const SixthSection = () => {
-    return (
-   <>
-   <section className="sixth-heghlight-wrapper">
+
+import arcade from "../../assets/images/icons/arcade.png"
+
+function SixthSection() {
+  return (
+    <>
+    <section className="sixth-heghlight-wrapper">
 		<div className="container-fluid">
 			<div className="row">
 				<div className="left-side-wrapper col-sm-12 col-md-6">
 					<div className="left-side-container">
 						<div className="top-logo-wrapper">
 							<div className="logo-wrapper">
-								<img src={arcade}/>
+								<img src={arcade} alt="Apple Arcade"/>
 							</div>
 						</div>
 						<div className="description-wraper white">
@@ -43,8 +44,8 @@ const SixthSection = () => {
 			</div>
 		</div> 
 	</section>
-   </>
-    );
+    </>
+  )
 }
 
-export default SixthSection;
+export default SixthSection
